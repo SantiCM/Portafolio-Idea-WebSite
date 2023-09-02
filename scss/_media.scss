@@ -1,6 +1,12 @@
+@media (max-width: 1200px) {
+    .image-container {
+        height: 60vh;
+    }
+}
+
 @media (max-width: 800px) {
     .image-container {
-        height: 50vh;
+        height: 60vh;
     }
     // Header
     #header-home {
@@ -227,9 +233,5 @@
     }
 }
 
-@media(max-height: 1180px) {
-    .image-container {
-        height: 60vh;
-    }
-}
+
 

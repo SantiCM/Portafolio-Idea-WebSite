@@ -444,9 +444,13 @@ img {
       background: #ffbc00;
       color: #fff; }
 
+@media (max-width: 1200px) {
+  .image-container {
+    height: 60vh; } }
+
 @media (max-width: 800px) {
   .image-container {
-    height: 50vh; }
+    height: 60vh; }
   #header-home {
     height: 30rem; }
     #header-home .header-content {
@@ -545,7 +549,3 @@ img {
 @media (max-height: 768px) {
   .image-container {
     height: 86vh; } }
-
-@media (max-height: 1180px) {
-  .image-container {
-    height: 60vh; } }
