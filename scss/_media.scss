@@ -1,7 +1,7 @@
 // Tablet
 @media (max-width: 800px) {
-    .image-contact {
-        height: 50vh;
+    .image-container {
+        height: 52vh;
     }
     // Header
     #header-home {
@@ -53,9 +53,14 @@
 }
 
 // Smarthphones
+@media (max-width: 501px) {
+    .image-container {
+        height: 59vh;
+    }
+}
 @media (max-width: 500px) {
-    .image-contact {
-        height: 75vh;
+    .image-container {
+        height: 65vh;
     }
     #main-nav {
         flex-direction: column;
@@ -163,14 +168,13 @@
 
 // Landscape
 @media(max-height:580px) {
+    .image-container {
+        width: 65%;
+    }
     #header-home {
         .header-content {
             padding-top: 3rem;
         }
-    }
-
-    .image-contact {
-        height: 130vh;
     }
     // Header
     #header-home {
@@ -201,6 +205,8 @@
         }
 
         &-c {
+
+           
             .process {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -222,7 +228,7 @@
 }
 
 @media(max-height:768px) {
-    .image-contact {
-        height: 65vh;
+    .image-container{
+        height: 75vh;
     }
 }
