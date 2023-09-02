@@ -446,7 +446,7 @@ img {
 
 @media (max-width: 800px) {
   .image-container {
-    height: 52vh; }
+    height: 50vh; }
   #header-home {
     height: 30rem; }
     #header-home .header-content {
@@ -469,13 +469,9 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem; } }
 
-@media (max-width: 501px) {
-  .image-container {
-    height: 59vh; } }
-
 @media (max-width: 500px) {
   .image-container {
-    height: 65vh; }
+    height: 75vh; }
   #main-nav {
     flex-direction: column;
     align-items: center; }
@@ -548,4 +544,8 @@ img {
 
 @media (max-height: 768px) {
   .image-container {
-    height: 75vh; } }
+    height: 86vh; } }
+
+@media (max-height: 1180px) {
+  .image-container {
+    height: 60vh; } }

@@ -1,7 +1,6 @@
-// Tablet
 @media (max-width: 800px) {
     .image-container {
-        height: 52vh;
+        height: 50vh;
     }
     // Header
     #header-home {
@@ -53,14 +52,9 @@
 }
 
 // Smarthphones
-@media (max-width: 501px) {
-    .image-container {
-        height: 59vh;
-    }
-}
 @media (max-width: 500px) {
     .image-container {
-        height: 65vh;
+        height: 75vh;
     }
     #main-nav {
         flex-direction: column;
@@ -229,6 +223,13 @@
 
 @media(max-height:768px) {
     .image-container{
-        height: 75vh;
+        height: 86vh;
     }
 }
+
+@media(max-height: 1180px) {
+    .image-container {
+        height: 60vh;
+    }
+}
+
